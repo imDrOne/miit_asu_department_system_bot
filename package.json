@@ -1,0 +1,31 @@
+{
+  "name": "miit_asu_department_system_bot",
+  "version": "1.0.0",
+  "description": "Bot - part of system ASU department",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imDrOne/miit_asu_department_system_bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "asu_department"
+  ],
+  "author": "atiholoz <idronecoder@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imDrOne/miit_asu_department_system_bot/issues"
+  },
+  "homepage": "https://github.com/imDrOne/miit_asu_department_system_bot#readme",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
