@@ -9,5 +9,5 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 
 bot.launch()
-    .then(value => console.log(bot.context.botInfo))
-    .catch(reason => console.log(reason))
+  .then(value => console.log(bot.context.botInfo))
+  .catch(reason => console.log(reason))
